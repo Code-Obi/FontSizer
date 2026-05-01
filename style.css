@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: grey;
+  overflow-x: hidden;
+}
+#size {
+  text-align: center;
+  display: none;
+  font-weight: bold;
+  color:transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: .5rem;
+}
+#show {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.box {
+  width: 20rem;
+  height: 8rem;
+  background: crimson;
+  border: 0.2rem solid white;
+  border-radius: 1rem;
+  position: fixed;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+}
+
+.box input {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
